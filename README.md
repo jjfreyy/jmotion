@@ -1,6 +1,6 @@
-# JMotion
+# jMotion
 
-JMotion adalah proyek _image-to-video_ berbasis Python yang menggunakan model **LTX-Video 0.9.8 13B Distilled** dari Hugging Face Diffusers.
+jMotion adalah proyek _image-to-video_ berbasis Python yang menggunakan model **LTX-Video 0.9.8 13B Distilled** dari Hugging Face Diffusers.
 
 Proyek ini mengubah satu gambar menjadi video berdasarkan instruksi gerakan melalui _positive prompt_ dan _negative prompt_. Proses inferensi menggunakan PyTorch dengan dukungan GPU NVIDIA CUDA serta optimasi penggunaan memori untuk menjalankan model berukuran besar.
 
@@ -27,7 +27,7 @@ Proyek ini mengubah satu gambar menjadi video berdasarkan instruksi gerakan mela
 | LTX-Video 0.9.8        | Model generasi video                  |
 | Pillow                 | Membaca dan memproses gambar          |
 | ImageIO                | Dukungan pemrosesan video             |
-| python-dotenv          | Memuat konfigurasi dari file `.env` |
+| python-dotenv          | Memuat konfigurasi dari file `.env`   |
 
 ## Struktur Proyek
 
@@ -136,8 +136,8 @@ Pastikan direktori tersebut tersedia dan memiliki ruang penyimpanan yang cukup.
 
 Parameter utama dapat diubah melalui bagian konfigurasi di `main.ipynb`.
 
-| Parameter                  |                                   Nilai awal | Keterangan                                                |
-| -------------------------- | -------------------------------------------: | --------------------------------------------------------- |
+| Parameter                |                                 Nilai awal | Keterangan                                                |
+| ------------------------ | -----------------------------------------: | --------------------------------------------------------- |
 | `REPO_ID`                | `Lightricks/LTX-Video-0.9.8-13B-distilled` | Repositori model                                          |
 | `GUIDANCE_SCALE`         |                                      `1.0` | Kekuatan classifier-free guidance                         |
 | `GUIDANCE_RESCALE`       |                                      `0.7` | Rescaling hasil guidance                                  |
