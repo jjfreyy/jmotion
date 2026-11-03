@@ -1,0 +1,9 @@
+accelerate
+diffusers
+imageio
+imageio-ffmpeg
+pillow
+protobuf
+python-dotenv
+sentencepiece
+transformers
